@@ -1,0 +1,521 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>IT-Solution Website</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="data:image/png;base64,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">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/slicknav.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-area header-transparent">
+            <div class="main-header header-sticky">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="menu-wrapper d-flex align-items-center justify-content-between">
+                                <div class="left-content d-flex align-items-center">
+                                    <div class="logo mr-30">
+                                        <a href="#"><img src="assets/img/logo.png" alt=""></a>
+                                    </div>
+                                    <!-- Main-menu -->
+                                    <div class="main-menu d-none d-lg-block">
+                                        <nav>
+                                            <ul id="navigation">                                     
+                                                <li><a href="#">Home</a></li>
+                                                <li><a href="#">Services</a></li>
+                                                <li><a href="#">About</a></li>
+                                                <li><a href="#">Case Study</a></li>
+                                                <li><a href="#">Blog</a>
+                                                    <ul class="submenu">
+                                                        <li><a href="#">Blog</a></li>
+                                                        <li><a href="#">Blog Details</a></li>
+                                                        <li><a href="#">Element</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Contact</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>     
+                                <!-- Button -->
+                                <div class="buttons">
+                                    <ul>
+                                        <li class="button-header">
+                                            <a href="#" class="header-btn2 border-btn2">Get Free Quote</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Mobile Menu -->
+                    <div class="col-12">
+                        <div class="mobile_menu d-block d-lg-none"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Slider Area Start-->
+        <div class="slider-area  ">
+            <div class="single-sliders slider-height   d-flex align-items-center">
+                <div class="container position-relative">
+                    <div class="row align-items-center">
+                        <div class="col-xl-5 col-lg-6 col-md-6">
+                            <div class="hero-caption">
+                                <h1>We provide best IT solution</h1>
+                                <P>Naxly bring the power of data science and artificial intelligence to every business.</P>
+                                <a href="#" class="btn hero-btn">Our Services</a>
+                            </div>
+                        </div>
+                        <!-- hero shape 2-->
+                        <div class="hero-shape">
+                            <img src="assets/img/hero-img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <!-- Slider Area End -->
+        <!-- Services Area Start -->
+        <section class="categories-area section-padding">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6 col-lg-6 col-md-10">
+                        <!-- Section Tittle -->
+                        <div class="section-tittle text-center mb-35">
+                            <span>Our Services</span>
+                            <h2>IT solutions for startup and enterprises</h2>
+                        </div> 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat text-center mb-50">
+                            <div class="cat-icon">
+                                <img src="assets/img/services1.svg" alt="">
+                            </div>
+                            <div class="cat-cap">
+                                <h5><a href="services.html">Managed IT services</a></h5>
+                                <p>Naxly bring the power of data science and artificial intelligence to every business.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat text-center mb-50">
+                            <div class="cat-icon">
+                                <img src="assets/img/services2.svg" alt="">
+                            </div>
+                            <div class="cat-cap">
+                                <h5><a href="services.html">Backup and recovery</a></h5>
+                                <p>Naxly bring the power of data science and artificial intelligence to every business.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat text-center mb-50">
+                            <div class="cat-icon">
+                                <img src=assets/img/services3.svg" alt="">
+                            </div>
+                            <div class="cat-cap">
+                                <h5><a href="services.html">Cyber security</a></h5>
+                                <p>Naxly bring the power of data science and artificial intelligence to every business.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services Area End -->
+        <!-- About Area  -->
+        <section class="about-area2 section-padding gray-bg ">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-xl-5 col-lg-5 col-md-10">
+                        <!-- about-img -->
+                        <div class="about-img">
+                            <img src="assets/img/about1.jpg" alt="">
+                        </div>
+                        <div class="ratting-point">
+                            <div class="features-ratting">
+                                <img src="assets/img/notification.svg" alt="">
+                            </div>
+                            <div class="features-caption">
+                                <h3>New Features</h3>
+                                <p>You have received notification</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-6 col-md-10">
+                        <div class="about-caption mb-50">
+                            <!-- Section Tittle -->
+                            <div class="section-tittle mb-50">
+                                <h2>Grow your<br> business fast.</h2>
+                            </div>
+                            <div class="single-offers mb-20">
+                                <div class="offers-cap">
+                                    <img src="assets/img/notification1.svg" alt="">
+                                    <h3><a href="#">Engage Teammates</a></h3>
+                                    <p>Naxly bring the power of data science and artificial intelligence to every business.</p>
+                                </div>
+                            </div>
+                            <div class="single-offers">
+                                <div class="offers-cap">
+                                    <img src="assets/img/notification1.svg" alt="">
+                                    <h3><a href="#">Level Up Productivity</a></h3>
+                                    <p>Naxly bring the power of data science and artificial intelligence to every business.</p>
+                                </div>
+                            </div>
+                            <a href="#" class="btn mt-20">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Area End -->
+        <!--Services Area 2 -->
+        <section class="services-area2 section-padding2">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-xl-5 col-lg-5 col-md-6 col-sm-11">
+                        <!-- Section Tittle -->
+                        <div class="section-tittle section-tittle2 mb-55">
+                            <span>Industries We Serve</span>
+                            <h2>IT services customized for your industry</h2>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-md-6 col-sm-11">
+                        <!-- Section Tittle -->
+                        <div class="section-tittle section-tittle2 mb-55">
+                            <p>No matter the business, NanoSoft has you covered with industry compliant solutions, customized to your company’s specific needs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="single-cat mb-30 text-center">
+                            <div class="cat-icon">
+                                <img src="assets/img/stack1.svg" alt="">
+                            </div>
+                            <div class="cat-cap">
+                                <h5><a href="#">Industries & Manufacturing</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="single-cat mb-30 text-center">
+                            <div class="cat-icon">
+                                <img src="assets/img/stack2.svg" alt="">
+                            </div>
+                            <div class="cat-cap">
+                                <h5><a href="#">Education & Health</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="single-cat mb-30 text-center">
+                            <div class="cat-icon">
+                                <img src="assets/img/stack3.svg" alt="">
+                            </div>
+                            <div class="cat-cap">
+                                <h5><a href="#">Retail & Ecommerce</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="single-cat mb-30 text-center">
+                            <div class="cat-icon">
+                                <img src="assets/img/stack4.svg" alt="">
+                            </div>
+                            <div class="cat-cap">
+                                <h5><a href="#">Travel & Hospitality</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xl-12">
+                        <div class="section-tittle section-tittle3 text-center pt-35">
+                            <p>Need a Technology support? <a href="#">Get Started Now</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Services Area 2 -->
+        <!-- Count Down Start -->
+        <div class="count-down-area section-padding border-bottom">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-8 col-lg-9  col-md-12">
+                        <!-- Section Tittle -->
+                        <div class="section-tittle text-center mb-60">
+                            <h2>ITKol - Partner for Your Business </h2>
+                            <p class="mb-55">We understand the complexities of modern markets and translate them into real business solutions for automotive, financial, insurance, pharma & life sciences, and real estate with more to come.</p>
+                            <a href="#" class="border-btn">Request a Quote</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center ">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="count-down-wrapper">
+                            <div class="row justify-content-between">
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                                    <!-- Counter Up -->
+                                    <div class="single mb-30">
+                                        <div class="single-counter text-center">
+                                            <span class="counter ">2500</span>
+                                            <p class="">+</p>
+                                        </div>
+                                        <div class="pera-count  text-center">
+                                            <p>We understand the complexities of modern markets</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                                    <div class="single mb-30">
+                                        <!-- Counter Up -->
+                                        <div class="single-counter text-center">
+                                            <span class="counter ">350</span>
+                                            <p class="">+</p>
+                                        </div>
+                                        <div class="pera-count text-center">
+                                            <p>We understand the complexities of modern markets</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                                    <div class="single mb-30">
+                                        <!-- Counter Up -->
+                                        <div class="single-counter text-center">
+                                            <span class="counter ">20</span>
+                                            <p class="">+</p>
+                                        </div>
+                                        <div class="pera-count text-center">
+                                            <p>We understand the complexities of modern markets</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Count Down End -->
+        <!-- Great Stuffs -->
+        <div class="great-stuffs section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- Section Tittle -->
+                        <div class="section-tittle text-center mb-55">
+                            <h2>Some of Our Great Stuffs</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="single-location mb-30">
+                            <div class="location-img">
+                                <img src="assets/img/stuffs1.jpg" alt="">
+                                <div class="location-details text-center">
+                                    <span class="location-btn"></span>
+                                    <h4>inspire</h4>
+                                    <p>design studio</p>
+                                    <img src="assets/img/icon1.svg" alt="">
+                                </div>
+                            </div>
+                            <h3><a href="#">The Security Risks of Changing Package Owners</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="single-location mb-30">
+                            <div class="location-img">
+                                <img src="assets/img/stuffs2.jpg" alt="">
+                                <div class="location-details text-center">
+                                    <span class="location-btn"></span>
+                                    <h4>inspire</h4>
+                                    <p>design studio</p>
+                                    <img src="assets/img/icon1.svg" alt="">
+                                </div>
+                            </div>
+                            <h3><a href="#">The Security Risks of Changing Package Owners</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="single-location mb-30">
+                            <div class="location-img">
+                                <img src="assets/img/stuffs3.jpg" alt="">
+                                <div class="location-details text-center">
+                                    <span class="location-btn"></span>
+                                    <h4>inspire</h4>
+                                    <p>design studio</p>
+                                    <img src="assets/img/icon1.svg" alt="">
+                                </div>
+                            </div>
+                            <h3><a href="#">The Security Risks of Changing Package Owners</a></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Great Stuffs End -->
+        <!-- More about info -->
+        <section class="collection section-img-bg2  section-over1" data-background="assets/img/gallery/section_bg01.jpg">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-7 col-lg-9">
+                        <div class="single-question text-center">
+                            <!-- Video icon -->
+                            <div class="video-icon mb-40">
+                                <a class="popup-video btn-icon" href="https://www.youtube.com/watch?v=up68UAfH0d0" data-animation="bounceIn" data-delay=".4s"><i class="fas fa-play"></i></a>
+                            </div>
+                            <h2 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">Innovative IT Solution for your Business & Startup</h2>
+                            <a href="#" class="white-btn wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">Get Started Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about info End -->
+    </main>
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-area footer-padding">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-xl-4 col-lg-3 col-md-6 col-sm-8">
+                            <div class="single-footer-caption mb-50">
+                                <div class="single-footer-caption mb-30">
+                                    <!-- logo -->
+                                    <div class="footer-logo mb-35">
+                                        <a href="#"><img src="assets/img/logo2_footer.png" alt=""></a>
+                                    </div>
+                                    <div class="footer-tittle">
+                                        <div class="footer-pera">
+                                            <p>Duis aute irure dolor inasfa reprehenderit in voluptate velit esse cillum</p>
+                                        </div>
+                                    </div>
+                                    <ul class="mb-20">
+                                        <li class="number"><a href="#">(+92) 3453491912</a></li>
+                                        <li class="number2"><a href="#"><span class="__cf_email__" data-cfemail="ff9c90918b9e9c8bbf968bd2949093d19c9092">[email&#160;protected]</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Navigation</h4>
+                                    <ul>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">About</a></li>
+                                        <li><a href="#">Services</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Services</h4>
+                                    <ul>
+                                        <li><a href="#">Drone Mapping</a></li>
+                                        <li><a href="#"> Real State</a></li>
+                                        <li><a href="#">Commercial</a></li>
+                                        <li><a href="#">Construction</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle mb-10">
+                                    <h4>Subscribe newsletter</h4>
+                                    <p>Subscribe our newsletter to get updates about our services and offers.</p>
+                                </div>
+                                <!-- Form -->
+                                <div class="footer-form mb-20">
+                                    <div id="mc_embed_signup">
+                                        <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                                        method="get" class="subscribe_form relative mail_part">
+                                        <input type="email" name="email" id="newsletter-form-email" placeholder="Email Address"
+                                        class="placeholder hide-on-focus" onfocus="this.placeholder = ''"
+                                        onblur="this.placeholder = ' Email Address '">
+                                        <div class="form-icon">
+                                            <button type="submit" name="submit" id="newsletter-submit"
+                                            class="email_icon newsletter-submit button-contactForm">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </button>
+                                    </div>
+                                    <div class="mt-10 info"></div>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- social -->
+                        <div class="footer-social">
+                            <a href="https://github.com/fatimadeveloper14" target="_blank"><i class='fa fa-github'></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100010763613839" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/dua-fatima-642315286/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.youtube.com/@DuaFatimaKoareanDeveloper14" target="_blank"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer-bottom area -->
+    <div class="footer-bottom-area">
+        <div class="container">
+            <div class="footer-border">
+                <div class="row">
+                    <div class="col-xl-12 ">
+                        <div class="footer-copy-right text-center">
+                            <p>
+                                <strong>
+                                    <b>
+                                        <u>
+                                        Made by Dua Fatima
+                                        <br>
+                                        Roll no. 8706
+                                </u>
+                            </b>
+                                </strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+<!-- Scroll Up -->
+<div id="back-top" >
+    <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
